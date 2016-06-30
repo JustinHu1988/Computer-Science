@@ -30,5 +30,13 @@ DRAM/SDRAM
 
 ##1.3 Mass Storage
 
+###Magnetic Systems
+A disk storage system consists of many individual sectors, each of which can be accessed as an independent string of bits.
+The location of tracks and sectors is not a permanent part of a disk's physical structure, they are marked magnetically through a process called formatting (or initializing) the disk. 
 
+Evaluate a disk system's performance:
+(1) seek time
+(2) rotation delay or latency time
+(3) access time (the sum of seek time and rotation delay)
+(4) transfer rate (in the case of zone-bit recording, the amount of data passing a read/write head in a single disk rotation is greater for tracks in an outer zone than for an inner zone, and therefore the data transfer rate varies depending on the portion of the disk being used.)
 
